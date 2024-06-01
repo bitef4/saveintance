@@ -186,7 +186,7 @@ local function SavePlaceAsync()
                         Append = '<float name="' .. ObjProp .. '">' ..
                                      tostring(Objp) .. '</float>';
                     elseif (Type == 'string') then
-                        local String = Objp:gsub("[&<>]", Conversions); -- Because I got C O M P L A I N T S
+                        local String = Objp:gsub("[&<>]", Conversions);
 
                         Append =
                             '<string name="' .. ObjProp .. '">' .. String ..
